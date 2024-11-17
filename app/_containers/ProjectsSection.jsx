@@ -1,57 +1,57 @@
-import floema from "@/app/_assets/innovest.png";
-import aala from "@/app/_assets/i2.png";
-import codingninjas from "@/app/_assets/techstars.png";
-import happiness from "@/app/_assets/summit.png";
-import marble from "@/app/_assets/marble.png";
-import podcast from "@/app/_assets/podcast.png";
+import floema from "@/app/_assets/innovest.jpg";
+import aala from "@/app/_assets/i2.jpg";
+import codingninjas from "@/app/_assets/techstars.jpg";
+import happiness from "@/app/_assets/summit.jpg";
+import marble from "@/app/_assets/marble.jpg";
+import podcast from "@/app/_assets/podcast.jpg";
 import Link from "next/link";
 import TechnologySection from "./TechnologySection";
 const projects = [
   {
     id: 1,
-    title: "Innovest",
+    title: "Global Week 2022 Magazine",
     description:
-      "INNOVEST is the flagship event of Chitkara University effectuated by CEED.",
+      "Chitkara University and Birmingham City University signed an MoU for collaboration, with CAAN’s Dr. Madhu Chitkara and Shivani Gautam.",
     image: floema.src,
-    link: "https://floema-omega.vercel.app/",
+    // link: "https://floema-omega.vercel.app/",
   },
   {
     id: 2,
-    title: "Innovest 2.O",
+    title: "Entrepreneurship and Marketing",
     description:
-      "The second season Chitkara University's flagship investment symposium, INNOVEST 2.O.",
+      "CAAN Himachal Pradesh hosted the 'Alumni Connect Series' with Kanav Kapoor, sharing insights on entrepreneurship and marketing.",
     image: aala.src,
     // link: "https://aalav1.vercel.app/",
   },
   {
     id: 3,
-    title: "Tech Stars",
+    title: "launched the CEO@20 program",
     description:
-      "Techstars, a 54 hour marathon facilitating students in unraveling ideas that address Real life issues.",
+      "CAAN launched the CEO@20 program at Chitkara University, featuring Divam Wadhwa (Chai Nagri) and Tushar Bhatnagar (VidBoard.ai).",
     image: codingninjas.src,
     // link: "https://coding-ninjas-cuiet.vercel.app/",
   },
   {
     id: 4,
-    title: "National Entrepreneurship Summit 2023",
-    description: "The CEED National Entrepreneurship Summit 2023 was recently inaugurated by respected dignitaries and key guests.",
+    title: "Empower, Innovate, Inspire",
+    description: "CAAN's 'Beyond Coding' event at Chitkara University, featuring Sahil David, inspired future tech innovators in AI/ML.",
     image: happiness.src,
     // link: "https://happiness-center.vercel.app/",
   },
-  // {
-  //   id: 5,
-  //   title: "Marble Studio",
-  //   description: "Exact Replica of Marble Studio Website from awwwards.com",
-  //   image: marble.src,
-  //   link: "https://marble-studio.vercel.app/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Podcast",
-  //   description: "Podcast Website made from figma design(Virtual to Reality)",
-  //   image: podcast.src,
-  //   link: "https://podcast-tau-bay.vercel.app/",
-  // },
+  {
+    id: 5,
+    title: "Alumni Contribution",
+    description: "Divam Wadhwa contributed Rs 1 Lakh to Chitkara University caan.",
+    image: marble.src,
+    // link: "https://marble-studio.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Podcast",
+    description: "'Legacy Cup 2023' united alumni and faculty in a spirited cricket match.",
+    image: podcast.src,
+    // link: "https://podcast-tau-bay.vercel.app/",
+  },
 ];
 const ProjectsSection = () => {
   return (
@@ -63,8 +63,8 @@ const ProjectsSection = () => {
         <div className="flex items-center justify-center w-full h-full flex-col gap-[4rem]">
           <div className="flex items-center justify-center flex-col gap-[2.5rem] w-full">
             <div className="w-full flex items-start justify-start flex-col text-white hover:text-yellow-500 transition ease-in-out duration-500 uppercase">
-              <h1 className="font-mattone font-bold text-xl  xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem] ">
-                Incubating ideas, building leaders
+              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem] ">
+              Event Highlights !!
               </h1>
             </div>
             <div className="grid md:grid-cols-2 items-center justify-start gap-[1.4rem] s:grid-cols-2 grid-cols-1 border-b border-[#2e2e2e] py-4">
@@ -104,19 +104,19 @@ const ProjectsSection = () => {
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">01</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      DEVELOPMENT
+                    Alumni Engagement
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">02</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      MENTORING
+                    Networking Opportunities
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">03</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      NETWORKING
+                    Career Support
                     </p>
                   </div>
                 </div>
@@ -124,19 +124,19 @@ const ProjectsSection = () => {
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">01</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      INVESTMENT
+                    Entrepreneurial Support
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">02</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      BRANDING
+                    Empowering Mentorship
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">03</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      ENTREPRENEURSHIP
+                    Nurturing Innovation
                     </p>
                   </div>
                   
@@ -145,19 +145,19 @@ const ProjectsSection = () => {
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">01</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      PITCHING
+                    Strengthening Community
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">02</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      ANALYTICS
+                    Accelerating Career Growth
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">03</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      TECHNOLOGY
+                    Building Lifelong Bonds
                     </p>
                   </div>
                 </div>

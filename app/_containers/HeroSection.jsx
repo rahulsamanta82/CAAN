@@ -1,5 +1,6 @@
 import hero from "@/app/_assets/skills.jpg";
 import { DiReact } from "react-icons/di";
+// import vi from "@/app/_assets/cuiet.mp4"
 
 const HeroSection = () => {
   return (
@@ -13,7 +14,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-center flex-col p-2 fill-color uppercase">
               <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-3xl sm:text-4xl  md:text-4xl  xl:text-6xl text-white transition ease-in-out duration-500">
               <span className="text-red-600"> Chitkara University </span>
-              Centre for Entrepreneurship Education & Development (cuceed)
+              Chitkara Alumni Association Network (CAAN)
               </h1>
               <h1 className="font-mattone font-bold text-3xl xs:text-4xl s:text-5xl sm:text-6xl md:text-7xl  xl:text-9xl">
              
@@ -25,8 +26,8 @@ const HeroSection = () => {
           </div>
           <div className="w-full h-full flex items-center justify-center relative">
             <div className="flex items-center justify-center w-full h-full">
-            {/* <video controls src={hero} className="object-cover w-full h-[420px] rounded-3xl"></video> */}
-              <img loading="eager" src={hero.src} alt="hero" className="object-cover w-full h-[320px] rounded-3xl hover:scale-90 transition ease-in-out duration-700 "/>
+            {/* <video controls src={vi.src} className="object-cover w-full h-[420px] rounded-3xl"></video> */}
+              <img loading="eager" src={hero.src} alt="hero" className="object-cover w-full h-[720px] rounded-3xl hover:scale-90 transition ease-in-out duration-700 "/>
             </div>
           </div>
         </div>
