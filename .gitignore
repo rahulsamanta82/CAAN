@@ -1,0 +1,9 @@
+# Ignore build output and caches
+.next/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore system-specific files
+*.log
+*.DS_Store
