@@ -1,5 +1,5 @@
 import floema from "@/app/_assets/innovest.jpg";
-
+import aala from "@/app/_assets/i2.jpg";
 import codingninjas from "@/app/_assets/techstars.jpg";
 import happiness from "@/app/_assets/summit.jpg";
 import marble from "@/app/_assets/marble.jpg";
@@ -20,7 +20,7 @@ const projects = [
     title: "Entrepreneurship and Marketing",
     description:
       "CAAN Himachal Pradesh hosted the 'Alumni Connect Series' with Kanav Kapoor, sharing insights on entrepreneurship and marketing.",
-   // image: aala.src,
+   image: aala.src,
     // link: "https://aalav1.vercel.app/",
   },
   {
