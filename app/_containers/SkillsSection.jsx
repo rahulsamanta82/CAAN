@@ -1,7 +1,7 @@
 import skills from "@/app/_assets/pgarg.jpg";
 import { DiAptana } from "react-icons/di";
 import { BiFootball } from "react-icons/bi";
-import kanav from "@/app/_assets/kanav.jpg";
+import kanav from "@/app/_assets/ki.jpg";
 import tushar from "@/app/_assets/tushar.png";
 import nic from "@/app/_assets/nic.png";
 import sahil from "@/app/_assets/sahil.jpg";
