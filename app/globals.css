@@ -84,7 +84,7 @@ html {
 }
 
 .marq-animation .marquee__content {
-  animation: scroll 50s linear infinite;
+  animation: scroll 50s linear infinite; 
 }
 
 @keyframes spin {
