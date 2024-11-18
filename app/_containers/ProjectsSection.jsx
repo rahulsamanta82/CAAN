@@ -50,7 +50,7 @@ const projects = [
     title: "Podcast",
     description: "'Legacy Cup 2023' united alumni and faculty in a spirited cricket match.",
     image: podcast.src,
-    // link: "https://podcast-tau-bay.vercel.app/",
+    // link: "https://po dcast-tau-bay.vercel.app/",
   },
 ];
 const ProjectsSection = () => {
