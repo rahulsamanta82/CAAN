@@ -1,5 +1,5 @@
 import floema from "@/app/_assets/innovest.jpg";
-import aala from "@/app/_assets/hi.png";
+import aala from "@/app/_assets/kanav.png";
 import codingninjas from "@/app/_assets/techstars.jpg";
 import happiness from "@/app/_assets/summit.jpg";
 import marble from "@/app/_assets/marble.jpg";
