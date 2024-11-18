@@ -7,3 +7,6 @@ node_modules/
 # Ignore system-specific files
 *.log
 *.DS_Store
+
+.next
+node_modules
